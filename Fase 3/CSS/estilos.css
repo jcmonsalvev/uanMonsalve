@@ -1,25 +1,13 @@
 header{
     color: black;
-    background-color:cornflowerblue;
+    background-color:lightgrey;
+    padding: 20px;
+    font-size: large;
 }
-nav{
-    color: black;
-    background-color: cadetblue;
-}
-section{
-    color: black;
-    background-color: cadetblue;
 
-   
-}
-footer{
-    color: black;
-    background-color: cadetblue;
-
-}
 * {
     margin: 0;
-    padding: 0;
+    padding:0;
     box-sizing: border-box;
 }
 
@@ -27,15 +15,15 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    background: black;
+    color:black;
+    background:lightblue;
     height: 50px;
     text-decoration: none;
 }
 
 .menu-area a:hover {
-    background: tomato;
-    color: #fff;
+    background:lightgray;
+    color: #000;
 
 }
 
@@ -69,4 +57,32 @@ footer{
 
 .dropdown-1 li:hover {
     display: block;
+}
+section{
+    float: left;
+    width: 70%;
+    height: auto;
+    padding: 10px;;
+    color: black;
+    background-color: white;
+    font-size: 100%;
+}
+
+aside{
+    float: left;
+    width: 30%;
+    color: #000;
+    background-color: white;
+}
+
+footer{
+    color: black;
+    background-color: lightgrey;
+    padding: 10px;;
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+
 }
